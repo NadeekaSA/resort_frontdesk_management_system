@@ -7,10 +7,10 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: FirebaseOptions(
-      apiKey: "AIzaSyAt1Kcel-KV9xN0CQGMh89Nwrbb4CW7J4A", 
-      appId: "1:711682178851:web:389d8a44a78909661dd696", 
-      messagingSenderId: "711682178851", 
-      projectId: "luckyresort-a44e8")
+      apiKey: ADD YOUR API KEY HERE, 
+      appId: ADD YOUR APP ID HERE, 
+      messagingSenderId: MESSAGINGSENDER ID, 
+      projectId: PROJECT ID)
   );
   runApp(LuckyResortApp());
 }
